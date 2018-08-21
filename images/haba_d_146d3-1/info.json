@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://fit-bannerstones.github.io/amnh-2/images/haba_d_146d3-1",
+  "protocol": "http://iiif.io/api/image",
+  "width": 3187,
+  "height": 4200,
+  "sizes": [
+    {
+      "width": 3187,
+      "height": 4200
+    },
+    {
+      "width": 250,
+      "height": 329
+    },
+    {
+      "width": 600,
+      "height": 791
+    },
+    {
+      "width": 1140,
+      "height": 1502
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}
